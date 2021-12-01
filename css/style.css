@@ -1,0 +1,328 @@
+/* Layout
+----------------------*/
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#home {
+    background: url(../img/fundo2.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    font-family: helvetica, Arial, sans-serif;
+}
+
+/* Barra de navegação
+----------------------*/
+.logo-top {
+    margin-left: 15px;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+}
+
+.link-top {
+    color: #fff;
+    padding: 0px 8px;
+}
+
+.link-top:hover {
+    text-decoration: none;
+    color: #9bf0e1;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+
+.divisor {
+    width: 1px;
+    background: #fff;
+    margin: 5px 10px;
+}
+
+.logo {
+    color: #ff5f43;
+}
+
+/* Capa 
+------------------*/
+
+.capa {
+    text-align: center;
+}
+
+.minha-descricao {
+    width: 700px;
+    margin: 0 auto;
+    font-weight: 700;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.tecnologias{
+   text-align: center;
+}
+
+.tecnologias img{
+    margin: 15px;
+}
+
+
+/* Estrutura de conteúdos
+-------------------*/
+#previa-portfolio .veja-mais {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#previa-portfolio .btn-custom {
+    background: transparent;
+    font-size: 1.8em;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    border: solid rgba(255, 255, 255, 0.5) 3px;
+}
+
+#previa-portfolio .btn-custom:hover {
+    background: #fff;
+    color: #000;
+}
+
+#postagens {
+    background: #b994ee;
+}
+
+
+#previa-portfolio {
+    background: url(../img/fundo2.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+}
+
+#previa-portfolio h3 {
+    text-align: center;
+    padding: 15px;
+    font-size: 2.6em;
+    font-weight: 800;
+}
+
+#previa-portfolio .item {
+    text-align: center;
+}
+
+#previa-portfolio .item img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+#previa-portfolio h4 {
+    color: #97e8eb;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.descricao-item {
+    width: 300px;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
+/* Tipografia
+-------------------*/
+
+.capa h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+} 
+
+#postagens h2 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    padding: 10px;
+    text-align: center;
+} 
+
+#postagens li {
+    padding: 5px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+/* Rodape
+--------------------*/
+footer {
+    background: #343435;
+}
+
+footer .logo-bottom {
+    padding: 15px;
+    color: #fff;
+}
+
+footer .redes-sociais {
+    text-align: center;
+}
+
+footer .redes-sociais i {
+    padding: 15px;
+    color: #000;
+}
+
+footer .redes-sociais i:hover {
+    color: #fff;
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .capa h1 {
+        font-size: 2.8em;
+        margin-top: 160px;
+    }
+
+    #postagens h2 {
+        font-size: 2.7em;
+    }
+
+    .minha-descricao {
+        width: 360px;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .descricao-item {
+        border-bottom: solid 2px #cabec152;
+        color: #fff;
+        font-size: 1.2em;
+    }
+
+    footer .logo-bottom {
+        text-align: center;
+        border-bottom: solid 2px #cabec152;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .capa h1 {
+        font-size: 3em;
+    }
+
+    #postagens h2 {
+        font-size: 2.8em;
+    }
+
+    .minha-descricao {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    footer .logo-bottom {
+        text-align: center;
+        border-bottom: solid 2px #cabec152;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .capa h1 {
+        font-size: 4em;
+    }
+
+    #postagens h2 {
+        font-size: 2.8em;
+    }
+
+    .minha-descricao {
+        width: 700px;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .capa h1 {
+        font-size: 4em;
+    }
+
+    #postagens h2 {
+        font-size: 2.7em;
+    }
+    
+    .minha-descricao {
+        font-size: 1.1em;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .capa h1 {
+        font-size: 4em;
+    }
+
+    #postagens h2 {
+        font-size: 3.1em;
+    }
+
+    .minha-descricao {
+        font-size: 1.2em;
+    }
+}
+
+
+.test {
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+}
+
+#home .typewriter{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#home .line {
+    font-size: 2em;
+    font-weight: 600;
+    border-right: solid rgba(255, 255, 255, .75);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation {
+    animation: blinkCursor 600ms infinite normal, typing 4s steps(25) 1s normal both;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to {
+        width: 310px;
+    }
+}
+
+@keyframes blinkCursor {
+    from{
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
