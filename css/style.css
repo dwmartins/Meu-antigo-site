@@ -55,6 +55,11 @@ nav.navbar-transparente {
     text-align: center;
 }
 
+#home .my-picture img {
+    width: 400px;
+    border-radius: 180px;
+}
+
 .minha-descricao {
     width: 700px;
     margin: 0 auto;
@@ -239,7 +244,8 @@ footer .redes-sociais i:hover {
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     .capa h1 {
-        font-size: 4em;
+        font-size: 3em;
+        margin-top: 70px;
     }
 
     #postagens h2 {
@@ -247,17 +253,23 @@ footer .redes-sociais i:hover {
     }
 
     .minha-descricao {
-        width: 700px;
+        width: 460px;
         margin: 0 auto;
         font-size: 1.2em;
+    }
+
+    .my-picture {
+        margin-top: 70px;
     }
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     .capa h1 {
         font-size: 4em;
+        margin-top: 70px;
     }
 
     #postagens h2 {
@@ -266,6 +278,16 @@ footer .redes-sociais i:hover {
     
     .minha-descricao {
         font-size: 1.1em;
+    }
+
+    .minha-descricao {
+        width: 500px;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .my-picture {
+        margin-top: 70px;
     }
 }
 
