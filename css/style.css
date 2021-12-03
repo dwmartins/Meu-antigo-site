@@ -7,11 +7,11 @@ html, body, #home {
 }
 
 #home {
-    background: url(../img/fundo2.png),
-                url(../img/ruido.png),
-                linear-gradient(50deg, #ff4169, #7c26f8);
+    background: linear-gradient(50deg, #ff4169, #7c26f8);
     font-family: helvetica, Arial, sans-serif;
 }
+
+
 
 /* Barra de navegação
 ----------------------*/
@@ -68,17 +68,49 @@ nav.navbar-transparente {
     text-align: justify;
 }
 
-.tecnologias{
-   text-align: center;
-}
-
-.tecnologias img{
-    margin: 15px;
-}
-
 
 /* Estrutura de conteúdos
 -------------------*/
+#postagens {
+    background: #d4d4d4;
+}
+
+#postagens h2 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    padding: 10px;
+    text-align: center;
+} 
+
+.logos-tec {
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.315);
+    width: 160px;
+    margin: 10px 30px;
+}
+
+.tecnologias{
+    text-align: center;
+    padding: 30px 0;
+}
+ 
+.tecnologias img{
+     margin: 15px;
+}
+
+.tecnologias p {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+#previa-portfolio {
+    background: url(../img/fundo2.png),
+                url(../img/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    padding: 20px 0px;
+}
+
 #previa-portfolio .veja-mais {
     text-align: center;
     padding-bottom: 20px;
@@ -99,26 +131,16 @@ nav.navbar-transparente {
     color: #000;
 }
 
-#postagens {
-    background: #b994ee;
-}
-
-
-#previa-portfolio {
-    background: url(../img/fundo2.png),
-                url(../img/ruido.png),
-                linear-gradient(50deg, #ff4169, #7c26f8);
-}
-
 #previa-portfolio h3 {
     text-align: center;
-    padding: 15px;
+    padding: 30px;
     font-size: 2.6em;
     font-weight: 800;
 }
 
 #previa-portfolio .item {
     text-align: center;
+    padding: 15px 0;
 }
 
 #previa-portfolio .item img {
@@ -150,13 +172,6 @@ nav.navbar-transparente {
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: #fff;
-} 
-
-#postagens h2 {
-    font-weight: 900;
-    letter-spacing: -0.05em;
-    padding: 10px;
-    text-align: center;
 } 
 
 #postagens li {
@@ -195,15 +210,16 @@ footer .redes-sociais i:hover {
 @media (max-width: 575.98px) {
     .capa h1 {
         font-size: 2.8em;
-        margin-top: 160px;
+        margin-top: 140px;
+        margin-bottom: 15px;
     }
 
     #postagens h2 {
-        font-size: 2.7em;
+        font-size: 2.2em;
     }
 
     .minha-descricao {
-        width: 360px;
+        width: 350px;
         margin: 0 auto;
         font-size: 1.2em;
     }
@@ -212,6 +228,19 @@ footer .redes-sociais i:hover {
         border-bottom: solid 2px #cabec152;
         color: #fff;
         font-size: 1.2em;
+    }
+
+    #previa-portfolio h3 {
+        font-size: 2em;
+    }
+
+    #previa-portfolio .btn-custom {
+        font-size: 1.2em;
+    }
+
+    .logos-tec {
+        width: 120px;
+        margin: 15px 15px;
     }
 
     footer .logo-bottom {
@@ -224,6 +253,7 @@ footer .redes-sociais i:hover {
 @media (min-width: 576px) and (max-width: 767.98px) {
     .capa h1 {
         font-size: 3em;
+        margin-bottom: 6px;
     }
 
     #postagens h2 {
@@ -233,11 +263,16 @@ footer .redes-sociais i:hover {
     .minha-descricao {
         width: 500px;
         margin: 0 auto;
+        font-size: 1.4em;
     }
 
     footer .logo-bottom {
         text-align: center;
         border-bottom: solid 2px #cabec152;
+    }
+
+    #previa-portfolio .btn-custom {
+        font-size: 1.4em;
     }
 }
 
@@ -246,6 +281,7 @@ footer .redes-sociais i:hover {
     .capa h1 {
         font-size: 3em;
         margin-top: 70px;
+        margin-bottom: 10px;
     }
 
     #postagens h2 {
@@ -277,7 +313,7 @@ footer .redes-sociais i:hover {
     }
     
     .minha-descricao {
-        font-size: 1.1em;
+        font-size: 1.em;
     }
 
     .minha-descricao {
