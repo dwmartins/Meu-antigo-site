@@ -107,9 +107,7 @@ nav.navbar-transparente {
 }
 
 #previa-portfolio {
-    background: url(../img/fundo2.png),
-                url(../img/ruido.png),
-                linear-gradient(50deg, #7c26f8, #ff4169);
+    background: linear-gradient(50deg, #7c26f8, #ff4169);
     padding: 20px 0px;
 }
 
