@@ -236,11 +236,11 @@ footer .freepik a:hover {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    #home {
+    #home, body{
         background: url(../img/fundo-responsivo.jpg) no-repeat;
     }
 
-    #home {
+    #home, body  {
         position: relative;
         height: 100%;
         background-repeat: no-repeat;
@@ -293,15 +293,16 @@ footer .freepik a:hover {
         margin-bottom: 15px;
         text-align: center;
     }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #home {
+    #home, body {
         background: url(../img/fundo-responsivo.jpg) no-repeat;
     }
 
-    #home {
+    #home, body {
         position: relative;
         height: 100%;
         background-repeat: no-repeat;
@@ -337,11 +338,11 @@ footer .freepik a:hover {
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    #home {
+    #home, body {
         background: url(../img/fundo.jpg) no-repeat;
     }
 
-    #home {
+    #home, body {
         position: relative;
         height: 100%;
         background-repeat: no-repeat;
@@ -374,7 +375,7 @@ footer .freepik a:hover {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    #home {
+    #home, body {
         background: url(../img/fundo.jpg) no-repeat;
         background-size: 120%;
         background-attachment: fixed;
@@ -406,7 +407,7 @@ footer .freepik a:hover {
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    #home {
+    #home, body{
         background: url(../img/fundo.jpg) no-repeat;
         background-size: 100%;
         background-attachment: fixed;
@@ -440,7 +441,7 @@ footer .freepik a:hover {
 
 #home .line {
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 900;
     border-right: solid rgba(255, 255, 255, .75);
     white-space: nowrap;
     overflow: hidden;
