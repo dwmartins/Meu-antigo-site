@@ -3,14 +3,19 @@
 
 html, body, #home {
     height: 100%;
-    overflow-x: hidden;
 }
 
 #home {
-    background: url(../img/fundo.jpg) no-repeat;
-    background-size: 250%;
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-    font-family: helvetica, Arial, sans-serif;
+}
+
+#home {
+    background: url(../img/fundo.jpg);
 }
 
 
@@ -19,6 +24,10 @@ html, body, #home {
 ----------------------*/
 .logo-top {
     margin-left: 15px;
+}
+
+.logo-top h3 {
+    font-weight: 900;
 }
 
 nav.navbar-transparente {
@@ -192,6 +201,10 @@ footer .logo-bottom {
     color: #fff;
 }
 
+.logo-bottom h3{
+    font-weight: 900;
+}
+
 footer .redes-sociais {
     text-align: center;
 }
@@ -225,13 +238,20 @@ footer .freepik a:hover {
 @media (max-width: 575.98px) {
     #home {
         background: url(../img/fundo-responsivo.jpg) no-repeat;
-        background-size: 110%;
-        background-attachment: fixed;
+    }
+
+    #home {
+        position: relative;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
     }
 
     .capa h1 {
         font-size: 2.8em;
-        margin-top: 140px;
+        margin-top: 90px;
         margin-bottom: 15px;
     }
 
@@ -278,9 +298,16 @@ footer .freepik a:hover {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     #home {
-        background: url(../img/fundo.jpg) no-repeat;
-        background-size: 180%;
-        background-attachment: fixed;
+        background: url(../img/fundo-responsivo.jpg) no-repeat;
+    }
+
+    #home {
+        position: relative;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
     }
 
     .capa h1 {
@@ -312,8 +339,15 @@ footer .freepik a:hover {
 @media (min-width: 768px) and (max-width: 991.98px) {
     #home {
         background: url(../img/fundo.jpg) no-repeat;
-        background-size: 150%;
-        background-attachment: fixed;
+    }
+
+    #home {
+        position: relative;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
     }
 
     .capa h1 {
