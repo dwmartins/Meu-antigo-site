@@ -23,6 +23,7 @@ html, body, #home {
 
 /* Barra de navegação
 ----------------------*/
+
 .logo-top {
     margin-left: 15px;
 }
@@ -37,6 +38,8 @@ nav.navbar-transparente {
 }
 
 .link-top {
+    font-weight: 700;
+    font-size: 1.2em;
     color: #fff;
     padding: 0px 8px;
 }
@@ -63,31 +66,11 @@ nav.navbar-transparente {
 /* Capa 
 ------------------*/
 
-.capa {
-    text-align: center;
-}
-
 #home .my-picture img {
     width: 400px;
     border-radius: 180px;
 }
 
-
-
-#home .redes-sociais i{
-    color: #000;
-    padding: 10px;
-}
-
-#home .redes-sociais i:hover{
-    color: #fff;
-}
-
-
-#home .redes-sociais{
-    text-align: left;
-    margin-left: 30px;
-}
 
 /* Sobre */
 
@@ -254,37 +237,29 @@ footer .freepik a:hover {
     }
 
     .capa h1 {
-        font-size: 3.2em;
+        font-size: 3.4em;
         margin-bottom: 15px;
         text-align: center;
-        margin-left: 0px;
         color: #fff;
         font-weight: 800;
         letter-spacing: -0.05em;
     }
 
     .capa h2 {
-        font-size: 2.1em;
+        font-size: 2.5em;
         margin-bottom: 15px;
-        margin-left: 10px;
         color: #81c1d4;
         font-weight: 700;
         letter-spacing: -0.05em;
-        text-align: left;
+        text-align: center;
     }
 
     .capa h3 {
         font-size: 1.8em;
         margin-bottom: 15px;
-        margin-left: 10px;
         color: #fff;
         font-weight: 600;
-        text-align: left;
-    }
-
-    #home .redes-sociais{
-        text-align: left;
-        margin-left: 10px;
+        text-align: center;
     }
 
     #postagens h2 {
@@ -409,7 +384,7 @@ footer .freepik a:hover {
     }
 
     .capa h1 {
-        font-size: 3.6em;
+        font-size: 3em;
         text-align: left;
         font-weight: 800;
         letter-spacing: -0.05em;
@@ -520,10 +495,10 @@ footer .freepik a:hover {
     }
 
     .capa h1 {
-        font-size: 3.6em;
+        font-size: 4.5em;
         text-align: left;
         font-weight: 800;
-        letter-spacing: -0.05em;
+        letter-spacing: -0.02em;
         color: #fff;
         margin-left: 30px;
         padding: 10px;
@@ -540,7 +515,7 @@ footer .freepik a:hover {
     }
     
     .capa h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: #fff;
         font-weight: 600;
         letter-spacing: -0.05em;
@@ -558,7 +533,8 @@ footer .freepik a:hover {
     }
 }
 
-
+/* Guia contato 
+-----------*/
 .test {
     width: 100%;
     text-align: center;
@@ -572,6 +548,7 @@ footer .freepik a:hover {
 }
 
 #home .line {
+    color: #fff;
     font-size: 2em;
     font-weight: 900;
     border-right: solid rgba(255, 255, 255, .75);
