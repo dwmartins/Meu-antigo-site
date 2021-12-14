@@ -21,7 +21,7 @@
         <script src="js/html5shiv.js"></script>
         <![endif]-->
 
-    <title>Douglas Martins</title>
+    <title>Contato</title>
     <link rel="icon" href="img/favicon.png">
 
   </head>
@@ -66,10 +66,25 @@
       </nav>
     </header><!--/Fim Cabecalho-->
 
-    <section id="home">
-      <div class="test typewriter">
-        <P class="line typing-animation">Em construção...</p>
+    <section id="contato">
+      
+      <div class="contato">
+        <h3>Contato</h3>
+
+        <form class="form" method="POST" action="./php/email.php">
+          <h4>Seu nome:</h4>
+          <input class="field" name="name" placeholder="Nome">
+          <h4>Seu e-mail:</h4>
+          <input class="field" name="email" placeholder="email">
+          <h4>Digite sua mensagem:</h4>
+          <textarea class="field" name="message" placeholder="Digite sua mensagem aqui.">
+
+          </textarea>
+          <input class="bootao-enviar" type="submit" value="Enviar">
+
+        </form>
       </div>
+
     </section>
     
     <footer>

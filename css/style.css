@@ -155,6 +155,7 @@ nav.navbar-transparente {
 #previa-portfolio .item {
     text-align: center;
     padding: 15px 0;
+    visibility: visible;
 }
 
 #previa-portfolio .item img {
@@ -220,6 +221,162 @@ footer .freepik a:hover {
     text-decoration: none;
 }
 
+/* Portfólio 
+-----------------*/
+
+#Portfolio {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#Portfolio {
+    background: url(../img/fundo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    
+}
+
+#Portfolio .capa{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Portfolio h1 {
+    text-align: center;
+    padding: 100px 10px 0px 10px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin-bottom: 50px;
+}
+
+#Portfolio .item {
+    text-align: center;
+    padding: 15px 20px;
+}
+
+#Portfolio .item img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+#Portfolio h4 {
+    color: #97e8eb;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.descricao-item {
+    width: 300px;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#Portfolio .btn-custom {
+    background: transparent;
+    font-size: 1em;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    border: solid rgba(255, 255, 255, 0.5) 3px;
+}
+
+#Portfolio .btn-custom:hover {
+    background: #fff;
+    color: #000;
+}
+
+/*Fim portfólio
+-----------------*/
+
+/* Contato 
+----------------*/
+#contato , html, body{
+    height: 100%;
+}
+
+#contato {
+    background: url(../img/fundo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#contato {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+
+#contato h3 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 900;
+}
+
+#contato h4 {
+    color: #fff;
+    font-weight: 800;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contato {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.459);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 10px 20px;
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bootao-enviar {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(50deg,#7c26f8, #ff4169);
+    box-shadow: 1px 1px 5px #000;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
@@ -246,8 +403,8 @@ footer .freepik a:hover {
     }
 
     .capa h2 {
-        font-size: 2.5em;
-        margin-bottom: 15px;
+        font-size: 2.2em;
+        padding: 25px 0;
         color: #81c1d4;
         font-weight: 700;
         letter-spacing: -0.05em;
@@ -300,6 +457,56 @@ footer .freepik a:hover {
         margin-bottom: 15px;
         text-align: center;
     }
+
+    /* portfolio
+    ---------------*/
+    #Portfolio {
+        background: url(../img/fundo-responsivo.jpg) no-repeat;
+    }
+
+    #Portfolio {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
+    }
+
+    #PortffPortfolioolio h1 {
+        font-size: 2.3em;
+    }
+    
+    #Portfolio .descricao-item {
+        border-bottom: solid 3px #cabec188;
+        color: #fff;
+        font-size: 1.2em;
+        padding-bottom: 15px;
+    }
+
+    /* Fim portfolio 
+    -----------------*/
+
+    /* contato 
+    -----------------*/
+    #contato {
+        background: url(../img/fundo-responsivo.jpg) no-repeat;
+    }
+
+    #contato {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
+    }
+
+    #contato .contato {
+        width: 90%;
+        margin-top: 120px;
+    }
+
+    /* fim contato 
+    ----------------*/
 
 }
 
@@ -366,6 +573,55 @@ footer .freepik a:hover {
     #previa-portfolio .btn-custom {
         font-size: 1.4em;
     }
+
+    /* portfolio 
+    -------------------*/
+    #Portffolio {
+        background: url(../img/fundo-responsivo.jpg) no-repeat;
+    }
+
+    #Portffolio {
+        position: relative;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
+    }
+
+    #Portffolio h1 {
+        padding-bottom: 20px;
+    }
+
+    /* fim portfolio 
+    -------------------*/
+
+    /* contato 
+    -----------------*/
+    #contato {
+        background: url(../img/fundo-responsivo.jpg) no-repeat;
+    }
+
+    #contato {
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed
+    }
+
+    #contato .contato {
+        width: 90%;
+        margin-top: 120px;
+    }
+
+    #contato .contato {
+        width: 90%;
+        margin-top: 120px;
+    }
+    
+    /* fim contato 
+    ----------------*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -427,6 +683,23 @@ footer .freepik a:hover {
         margin-top: 70px;
     }
 
+    #Portffolio h1 {
+        padding-bottom: 20px;
+    }
+
+    /* fim portfolio 
+    ---------------*/
+
+    /* contato 
+    -----------------*/
+    #contato .contato {
+        width: 90%;
+        margin-top: 120px;
+    }
+    
+    /* fim contato 
+    ----------------*/
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -484,6 +757,23 @@ footer .freepik a:hover {
     .my-picture {
         margin-top: 70px;
     }
+
+    #Portffolio h1 {
+        padding-bottom: 20px;
+    }
+
+    /* fim portfolio
+    ---------------*/
+
+    /* contato 
+    -----------------*/
+    #contato .contato {
+        width: 100%;
+        margin-top: 120px;
+    }
+    
+    /* fim contato 
+    ----------------*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -531,49 +821,21 @@ footer .freepik a:hover {
     .minha-descricao {
         font-size: 1.2em;
     }
-}
 
-/* Guia contato 
------------*/
-.test {
-    width: 100%;
-    text-align: center;
-    margin-top: 25%;
-}
-
-#home .typewriter{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-#home .line {
-    color: #fff;
-    font-size: 2em;
-    font-weight: 900;
-    border-right: solid rgba(255, 255, 255, .75);
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.typing-animation {
-    animation: blinkCursor 600ms infinite normal, typing 4s steps(25) 1s normal both;
-}
-
-@keyframes typing {
-    from{
-        width: 0;
+    #Portffolio h1 {
+        padding-bottom: 20px;
     }
-    to {
-        width: 310px;
+
+    /* fim portfolio
+    ------------------*/
+
+    /* contato 
+    -----------------*/
+    #contato .contato {
+        width: 100%;
     }
+    
+    /* fim contato 
+    ----------------*/
 }
 
-@keyframes blinkCursor {
-    from{
-        border-right-color: rgba(255, 255, 255, .75);
-    }
-    to{
-        border-right-color: transparent;
-    }
-}
