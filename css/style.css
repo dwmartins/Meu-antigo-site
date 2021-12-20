@@ -27,7 +27,6 @@ html, body, #home {
 .logo-top {
     margin-left: 15px;
 }
-
 .logo-top h3 {
     font-weight: 900;
 }
@@ -80,7 +79,6 @@ nav.navbar-transparente {
 
 #postagens h2 {
     text-align: center;
-    font-size: 3em;
     font-weight: 700;
     padding: 20px;
 }
@@ -124,6 +122,30 @@ nav.navbar-transparente {
     font-weight: 700;
 }
 
+#postagens .descricoes {
+    width: 400px;
+    padding-left: 20px;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
+    margin: 0 10px 30px 10px
+}
+
+#postagens .descricoes i {
+    padding-right: 8px;
+}
+
+#postagens .descricoes h3 {
+    margin-top: 5px;
+}
+
+#postagens .descricoes h4 {
+    padding-bottom: 10px;
+}
+
+#postagens .descricoes p {
+    padding-bottom: 10px;
+}
 
 #previa-portfolio .veja-mais {
     text-align: center;
@@ -178,6 +200,8 @@ nav.navbar-transparente {
     color: #fff;
 }
 
+
+
 /* Rodape
 --------------------*/
 footer {
@@ -199,11 +223,11 @@ footer .redes-sociais {
 
 footer .redes-sociais i {
     padding: 15px;
-    color: #000;
+    color: #fff;
 }
 
 footer .redes-sociais i:hover {
-    color: #fff;
+    color: #000;
 }
 
 footer .freepik {
@@ -420,13 +444,13 @@ textarea {
     }
 
     #postagens h2 {
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
     #postagens .my-description {
         width: 350px;
         margin: 0 auto;
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .descricao-item {
@@ -815,7 +839,7 @@ textarea {
     }
 
     #postagens h2 {
-        font-size: 3.1em;
+        font-size: 2.5em;
     }
 
     .minha-descricao {
