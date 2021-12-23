@@ -122,28 +122,28 @@ nav.navbar-transparente {
     font-weight: 700;
 }
 
-#postagens .descricoes {
+#postagens .itens {
     width: 400px;
-    padding-left: 20px;
+    padding: 20px;
     background: #fff;
     border-radius: 25px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
-    margin: 0 10px 30px 10px
+    margin: 0 10px 30px 10px;
 }
 
-#postagens .descricoes i {
+#postagens .itens i {
     padding-right: 8px;
 }
 
-#postagens .descricoes h3 {
+#postagens .itens h3 {
     margin-top: 5px;
 }
 
-#postagens .descricoes h4 {
+#postagens .itens h4 {
     padding-bottom: 10px;
 }
 
-#postagens .descricoes p {
+#postagens .itens p {
     padding-bottom: 10px;
 }
 
@@ -206,6 +206,7 @@ nav.navbar-transparente {
 --------------------*/
 footer {
     background: #343435;
+    bottom: 0;
 }
 
 footer .logo-bottom {
@@ -325,22 +326,24 @@ footer .freepik a:hover {
 
 /* Contato 
 ----------------*/
-#contato , html, body{
-    height: 100%;
-}
 
 #contato {
     background: url(../img/fundo.jpg);
-    background-size: 100%;
+    background-size: cover ;
     background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    min-height: 400px;
 }
 
-#contato {
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed
+    min-height: 400px;
+    height: 100%;
 }
 
 #contato h3 {
@@ -355,15 +358,9 @@ footer .freepik a:hover {
 }
 
 
-.content {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.contato {
+form {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto;
     margin-top: 90px;
     background-color: rgba(255, 255, 255, 0.301);
@@ -515,18 +512,22 @@ textarea {
     #contato {
         background: url(../img/fundo-responsivo.jpg) no-repeat;
     }
-
+    
     #contato {
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed
-    }
+        background-attachment: fixed;
+        height: 100%;
+        min-height: 400px;
 
-    #contato .contato {
-        width: 90%;
-        margin-top: 120px;
+    }
+    
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* fim contato 
@@ -627,21 +628,19 @@ textarea {
     }
 
     #contato {
+        background: url(../img/fundo.jpg);
+        background-size: cover ;
+        background-attachment: fixed;
         position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed
+        height: 100%;
+        min-height: 400px;
     }
 
-    #contato .contato {
-        width: 90%;
-        margin-top: 120px;
-    }
-
-    #contato .contato {
-        width: 90%;
-        margin-top: 120px;
+    
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     /* fim contato 
@@ -716,9 +715,20 @@ textarea {
 
     /* contato 
     -----------------*/
-    #contato .contato {
-        width: 90%;
-        margin-top: 120px;
+    #contato {
+        background: url(../img/fundo.jpg);
+        background-size: cover ;
+        background-attachment: fixed;
+        position: relative;
+        height: 100%;
+        min-height: 400px;
+    }
+    
+    
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     /* fim contato 
@@ -791,9 +801,19 @@ textarea {
 
     /* contato 
     -----------------*/
-    #contato .contato {
-        width: 100%;
-        margin-top: 120px;
+    #contato {
+        background: url(../img/fundo.jpg);
+        background-size: cover ;
+        background-attachment: fixed;
+        position: relative;
+        height: 100%;
+        min-height: 400px;
+    }
+    
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     /* fim contato 
