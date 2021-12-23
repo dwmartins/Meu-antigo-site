@@ -17,6 +17,8 @@
     <!--Font Awesome -->
     <script src="https://kit.fontawesome.com/b57ab3d1e8.js" crossorigin="anonymous"></script>
 
+    <script src="./js/login.js"></script>
+
     <!--[if lt IE 9]> 
         <script src="js/html5shiv.js"></script>
         <![endif]-->
@@ -67,18 +69,17 @@
     <section id="contato">
       
       <div class="contato">
-        <h3>Contato</h3>
 
-        <form class="form" method="POST" action="./php/email.php">
+        <form class="form" method="POST" action="./php/email.php" id="formulario">
           <h4>Seu nome:</h4>
-          <input class="field" name="nome" placeholder="Nome">
+          <input class="field" name="nome" placeholder="Nome" id="nome">
           <h4>Seu e-mail:</h4>
-          <input class="field" name="email" placeholder="email">
+          <input class="field" name="email" placeholder="email" id="email">
           <h4>Digite sua mensagem:</h4>
-          <textarea class="field" name="mensagem" placeholder="Digite sua mensagem aqui.">
+          <textarea class="field" name="mensagem" placeholder="Digite sua mensagem aqui." id="msg">
 
           </textarea>
-          <input class="bootao-enviar" name="BTEnvia" type="submit" value="Enviar">
+          <input class="bootao-enviar" name="BTEnvia" type="submit" value="Enviar" onclick=" return enviar()">
 
         </form>
       </div>
